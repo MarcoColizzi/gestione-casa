@@ -18,6 +18,9 @@ const String Percorso = "/mnt/sda1/arduino/www"; // percorso fisico del file htt
 const String nomefile = "ridiriziona.php";
 // old const String locale =  "http://localhost/sd/";
 String locale =  "http://localhost/sd/";
+const String url = locale + nomefile;
+#include <Bridge.h>
+#include <HttpClient.h>
 
 
 void setup() {
