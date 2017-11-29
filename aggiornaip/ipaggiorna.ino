@@ -22,6 +22,13 @@ const String url = locale + nomefile;
 #include <Bridge.h>
 #include <HttpClient.h>
 
+#include <Dhcp.h>
+#include <Dns.h>
+#include <Ethernet.h>
+#include <EthernetClient.h>
+#include <EthernetServer.h>
+#include <EthernetUdp.h>
+
 
 void setup() {
   // put your setup code here, to run once:
